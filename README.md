@@ -51,6 +51,7 @@ Berikut adalah struktur data yang disimpan dalam tabel `items` di Supabase:
 ## Contoh Request dan Response
 
 1. **POST**/api/items (Membuat Data Baru)
+
    **Request Body:**
 
 ```json
@@ -77,7 +78,7 @@ Berikut adalah struktur data yang disimpan dalam tabel `items` di Supabase:
 
 2. **GET**/api/items (Mendapatkan Semua Data)
 
-   **Request:**GET http://localhost:3000/api/items
+   **Request:** GET http://localhost:3000/api/items
 
    **Response:**
 
@@ -110,9 +111,9 @@ Berikut adalah struktur data yang disimpan dalam tabel `items` di Supabase:
 ]
 ```
 
-3. **GET** /api/items?status=Dicuci (Filter Data)
+3. **GET**/api/items?status=Dicuci (Filter Data)
 
-   **Request:**GET http://localhost:3000/api/items?status=Dicuci
+   **Request:** GET http://localhost:3000/api/items?status=Dicuci
 
    **Response:**
 
@@ -129,9 +130,9 @@ Berikut adalah struktur data yang disimpan dalam tabel `items` di Supabase:
 ]
 ```
 
-4. **PUT** /api/items/:id (Memperbarui Data)
+4. **PUT**/api/items/:id (Memperbarui Data)
 
-   **Request:**http://localhost:3000/api/items4075d18b-fdf4-4b86-bced-e74d002c8c30
+   **Request:** http://localhost:3000/api/items4075d18b-fdf4-4b86-bced-e74d002c8c30
 
    **Request Body:**
 
@@ -156,7 +157,7 @@ Berikut adalah struktur data yang disimpan dalam tabel `items` di Supabase:
 
 5. **DELETE** /api/items/:id (Menghapus Data)
 
-   **Request :**http://localhost:3000/api/items/4075d18b-fdf4-4b86-bced-e74d002c8c30
+   **Request :** http://localhost:3000/api/items/4075d18b-fdf4-4b86-bced-e74d002c8c30
 
    **Response:**
 
