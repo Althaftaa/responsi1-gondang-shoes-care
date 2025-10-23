@@ -166,3 +166,6 @@ Berikut adalah struktur data yang disimpan dalam tabel `items` di Supabase:
   "message": "Deleted successfully"
 }
 ```
+
+**Link Deploy (Vercel)**
+API ini telah dideploy ke Vercel dan dapat diakses melalui link berikut: https://responsi1-gondang-shoes-care.vercel.app/
